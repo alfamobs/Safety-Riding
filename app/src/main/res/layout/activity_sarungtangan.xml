@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/sarungtangan"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SARUNG TANGAN"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selain sebagai pelindung tangan dan jari pada saat udara dingin dan hujan, Glove juga berfungsi sebagai peredam resiko pada saat terjadi kecelakaan. Sadar atau pun tidak biasanya pada saat te rjadi kecelakaan, telapak tanganlah yang akan menyentuh aspal dan menahan tu buh kita pertama kali. Sama seperti pelindung tubuh lain, glove ini juga bisa dibuat dari berbagai macam bahan, warn a dan bentuk yang menarik. Sementara ini di pasaran, paling banyak tersedia adalah dari bahan ku lit dan synthetic. Pilihlah yang berbahan kulit. karena bahan kulit tidak meneruskan sifat ‘panas’ ke te lapak tangan pada saat ada pergesekan dengan permukaan jalan. "
+                android:typeface="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/nexttextsr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="monospace"
+                android:textSize="18dp"
+                android:padding="2dp"
+                android:text="Bahan synthetic, selain tidak terlalu kuat, dia juga akan menimbulkan rasa panas pada ku lit tangan kita. Saran kami, pilihlah glove panjang dari bahan kulit yang mempunyai pelindung Serat Karbon dan Kevlar pada buku-buku jari."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

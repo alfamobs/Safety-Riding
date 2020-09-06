@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dalem"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Rambu Peringatan"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="peringatan"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Rambu Larangan"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="larangan"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Rambu Perintah"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="perintah"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Rambu Petunjuk"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="petunjuk"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Rambu Papan Tambahan"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="papantambahan"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="40mm"
+        android:layout_height="wrap_content"
+        android:text="Rambu Nomor Rute"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="nomorrute"/>
+
+</LinearLayout>

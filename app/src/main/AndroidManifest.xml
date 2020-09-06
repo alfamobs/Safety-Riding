@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gontor.unida.tiunida_5.safetyriding">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".peringatan" />
+        <activity android:name=".larangan" />
+        <activity android:name=".perintah" />
+        <activity android:name=".petunjuk" />
+        <activity android:name=".papantambahan" />
+        <activity android:name=".nomorrute" />
+        <activity android:name=".helm" />
+        <activity android:name=".jaket" />
+        <activity android:name=".sarungtangan" />
+        <activity android:name=".sepatu" />
+        <activity android:name=".celana" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".membujur" />
+        <activity android:name=".melintang" />
+        <activity android:name=".serong" />
+        <activity android:name=".lambang" />
+        <activity android:name=".Main7Activity"
+            android:label="About"/>
+        <activity android:name=".Main8Activity"
+            android:label="Rating us"></activity>
+    </application>
+
+</manifest>

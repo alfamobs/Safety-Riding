@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalscrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/helm1"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        android:layout_gravity="left"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/helm2"
+                        android:scaleType="fitCenter"
+                        android:padding="10dp"
+                        android:layout_gravity="right"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HELM"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ada berbagai macam dan jenis helm yang tersedia di pasaran, Sebenarnya dalam memilih sebuah safety helmet, kita hanya memerlukan 2 (dua) kriteria saja, yaitu : nyaman dan aman. Nyaman pada saat kita kenakan dan aman dengan memilih helmet yang sudah bertanda “DOT” pada (biasanya ) bagian dalamnya . tidak di anjurkan pemakaian helm proyek/helm cebok untuk dipakai berkendara roda dua. Helmet jenis half face pun sebisanya dihindari untuk perjalanan ke luar kota.\n "
+                android:typeface="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/nexttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:textSize="18dp"
+                android:padding="2dp"
+                android:text="Penggunaan Helm ini telah diatur dalam UU No. 22 Tahun 2009 BAB VII Bagian Keempat Pasal 57 Ayat 2; BAB IX tenteng Lalu Lintas Bagian Keempat Paragraf 1 Pasal 106 ayat 8 dan 9 serta Ketentuan Pidana sesuai BAB XX Pasal 291 ayat 1 dan 2 dan Pasal 292 ."/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

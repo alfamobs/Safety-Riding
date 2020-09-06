@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/dalem"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="35mm"
+        android:layout_height="wrap_content"
+        android:text="Helm"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="helm"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="35mm"
+        android:layout_height="wrap_content"
+        android:text="Jaket"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="jaket"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="35mm"
+        android:layout_height="wrap_content"
+        android:text="Celana"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="celana"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="35mm"
+        android:layout_height="wrap_content"
+        android:text="Sarung Tangan"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:onClick="sarungtangan"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="35mm"
+        android:layout_height="wrap_content"
+        android:text="Sepatu"
+        android:background="@drawable/custom_button"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:onClick="sepatu"/>
+
+</LinearLayout>

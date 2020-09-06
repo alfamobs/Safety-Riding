@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/larangan"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RAMBU LARANGAN"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rambu lalu lintas yang satu ini bersifat larangan yang keras bagi pengendara agar tidak melakukan seperti apa yang digambarkan di rambu tersebut. Contohnya saja rambu bergambar huruf “S” yang dicoret berarti kendaraan dilarang berhenti sampai jarak 15 meter setelah rambu tersebut diletakkan. Rambu larangan ini biasanya berbentuk lingkaran dan berwarna dasar putih dengan gambar atau tulisan hitam. Pada tepi lingkaran diberi warna merah agar berkesan serius dan suatu keadaan yang harus dipatuhi."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

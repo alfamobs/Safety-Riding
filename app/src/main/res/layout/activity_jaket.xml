@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="200dp"
+                android:src="@drawable/jaket"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAKET"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sekarang ini jaket hadir dalam berbagai macam bahan, warna dan model. Pilihlah jaket yang nyaman dan aman untuk keperluan anda. Tentunya pada perjalanan jauh, kita tidak mung kin membawa berbagai jakel dengan berbagai bahan. Pilihlah yang menyerap keringat dan tidak tembus angin. Kami sangat merekomendasikan jenis dari bahan Gore-Tex atau Cordura yang tahan gesekan dan air yang dilapisi dengan bahan katun di sisi dalamnya. Pemasangan protector pada pundak, punggung , siku dan sepanjang tulang tangan sangatlah baik untuk meredam benturan yang terjadi pada saat kecelakaan."
+                android:typeface="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

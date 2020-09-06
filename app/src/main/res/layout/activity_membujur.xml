@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MARKA MEMBUJUR"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marka membujur adalah tanda yang sejajar dengan sumbu jalan. Marka membujur yang dihubungkan dengan garis melintang yang dipergunakan untuk membatasi ruang parkir pada jalur lalu lintas kendaraan, tidak dianggap sebagai marka jalan membujur. Marka ini berfungsi sebagai mengarahkan lalu lintas, memperingatkan akan adanya marka lain di depan dan memisahkan lajur atau jalur."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARKA PUTUS-PUTUS"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:id="@+id/subheading"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/putus"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garis marka ini memiliki arti bahwa Sobat diperbolehkan melintasi marka ini bila hendak pindah ke jalur sebelahnya yang kosong atau ingin menyalip kendaraan di depan Sobat. Tapi harus tetap berhati-hati jika jalan yang dilalui itu dua arah."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARKA UTUH"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:id="@+id/subheading1"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/utuh"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garis marka ini merupakan kebalikan dari marka putus-putus tadi. Sobat tidak boleh melewati marka ini. Resikonya sangat berbahaya lho."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARKA PUTUS-PUTUS MENJELANG MARKA UTUH"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:id="@+id/subheading2"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/putusjelanguth"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Marka ini memiliki arti bahwa jika Sobat berada di jalur bermarka putus-putus boleh melintasi ke jalur sebelahnya yang kosong, sedangkan jalur marka garis penuh tidak boleh melewati marka ini."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARKA PUTUS-PUTUS DAN UTUH MENJELANG MARKA DUA UTUH"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:id="@+id/subheading3"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/putusutuh"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sobat harus mengambil sebelah kiri garis utuh ini dan jangan melintasinya untuk melewati."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="5dp"/>
+
+            <TextView
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MARKA DUA UTUH"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:id="@+id/subheading4"
+                android:textSize="20sp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/duautuh"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sobat harus mengambil sebelah kiri jalur rangkap. Tidak diperbolehkan melintasi garis tersebut untuk melewati kendaraan maupun membelok."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

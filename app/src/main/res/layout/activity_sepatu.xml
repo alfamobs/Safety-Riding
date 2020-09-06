@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:src="@drawable/sepatu"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SEPATU"
+                android:typeface="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pilihan sepatu yang benar untuk berkendara motor tidak hanya nyaman dipakai, tapi yang paling penting adalah lunaknya bagian sendi engkel bagian depan. Sebaiknya menggunakan sepatu safety yang sudah memenuhi standar ISO. Hal ini dimaksudkan pada saat anda melakukan “panic break” (pengereman mend adak), kaki anda akan langsung menyalurkan tenaga ke tuas rem secara baik dan tidak tertahan di ‘keras ‘nya sepatu."
+                android:typeface="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Klasifikasi yang memenuhi syarat nyaman dan aman untuk sepatu adalah :\n
+• Sepatu haruslah tinggi dan melewati mata kaki dan berpelindung tepat pada mata kaki.\n
+• Diusahakan tidak bertali.\n
+• Nyaman dipakai.\n
+• Terbuat dari bahan alami atau terbuat dari kulit\n
+• Sol sepatu terbuat dari bahan karet, agar tidak licin.\n
+• Mempunyai pelindung di ujung jari kaki atau toe cap.\n
+• Mempunyai angka ukuran yang 1 (satu) tabel lebih tinggi dari ukuran kaki kita. Biasanya kita akan mengalami pembengkakan pada kaki pada saat kita melakukan perjalanan jauh .\n
+• Mempunyai sirkulasi udara yang baik dan mempunyai lapisan lembut disisi dalamnya."
+                android:typeface="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

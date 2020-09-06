@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/celana"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CELANA"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penggunaan celana sangat dianjurkan yang terbuat dari bahan yang tebal , seperti jeans, soft canvas, kulit Gore-lex dan cordura. Tiga bahan yang disebutkan terakhir memiliki daya tahan gesekan yang lumayan baik. Hanya saja kekurangannya, tidak terlalu nyaman dipakai pada saat matahari sedang terik. Untuk menyiasati hal ini, biasanya dipasanglah lapisan dari bahan katun disisi dalam, agar dapat menyerap keringat dengan baik. Untuk celana touring buatan pabrik, biasanya juga sudah dipasangkan beberapa pelindung tubuh, antara lain di daerah belakang untuk melindungi tulang ekor, pinggul samping, lutut dan tulang kering ."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

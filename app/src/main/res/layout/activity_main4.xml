@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/image"
+                android:scaleType="fitCenter"/>
+
+            <TextView
+                android:id="@+id/heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PENGERTIAN SAFETY RIDING"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:padding="10dp"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Safety Riding adalah sebuah bentuk pola perilaku untuk berkendara yang nyaman dan aman, baik untuk diri sendiri maupun pengguna jalan yang lain (pengendara maupun pejalan kaki). Artinya adalah suatu sikap agar kita mengkondisikan diri agar bagaimana mengendari sepeda motor yang aman dan nyaman, baik untuk diri kita maupun orang lain. Masih banyak kita lihat orang mengendarai motor dengan kecepatan tinggi, atau sangat lambat dan lain-lain yang membahayakan dirinya dan juga orang lain disekitarnya. Menurut survey tim safety riding, lebih dari 50% kecelakaan sepeda motor disebabkan oleh faktor manusia itu sendiri, selain faktor kendaraan dan lingkungan.
+                            Sebelum melakukan perjalanan jauh, cek terlebih dahulu kondisi kendaraan yang akan anda pakai. Bagian-bagian yang mesti dilakukan pengecekan yaitu: bensin, oli, rantai, ban, lampu, baterai / aki, baut mur, kaca spion, kopling dan rem."
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:padding="2dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
